@@ -1,0 +1,65 @@
+body {
+  background:rgba(253, 201, 238, 0.575);
+  overflow: hidden;
+  font-family: sans-serif;
+}
+.navbar{
+    padding: 10px 15px 30px;
+    background-color: #551c80a8;
+    color: #efeeee;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+}
+    
+
+    
+.gifs{
+  display: flex;
+  flex-direction: column;  
+  height: 70vh;
+  background: #FFFFFF;
+  padding-bottom: 40px;
+  border-radius: 0px 0px 8px 8px;
+  overflow: hidden;
+  box-shadow:0px 1px 6px 1px gray;
+ 
+
+}
+.img{
+   height: 55vh;
+   width: auto;
+   margin:15px;
+   padding: 10px 10px 40px;
+   box-shadow: 0px 2px 16px 0px;
+   border-radius: 10px;
+}
+
+.btn_swipe {
+ display: flex;
+ padding-top: 20px;
+ justify-content: space-around;
+ }
+
+.btn_swipe button {
+ border-radius: 50%;
+ line-height: 60px;
+ width: 60px;
+ border: 0;
+ background: #b78ada6c;
+ display: inline-block;
+}
+
+.btn_swipe i {
+ font-size: 32px;
+ vertical-align: middle;
+}
+
+.fa-heart{
+   color: rgba(199, 100, 169, 0.822);
+ }
+
+.fa-times{
+ color: rgba(255, 0, 0, 0.685);
+}  
+  
+  
